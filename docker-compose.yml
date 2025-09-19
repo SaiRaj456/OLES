@@ -1,0 +1,17 @@
+services:
+  examapp:
+    image: sairaj1271/oles
+    ports:
+      - "9010:8080"
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: lmsdb
+      MYSQL_USER: lmsuser
+      MYSQL_PASSWORD: lmspass
+    ports:
+      - "3307:3306"
