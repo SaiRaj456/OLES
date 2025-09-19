@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,8 +13,17 @@
 
     <h3>What do you want to do?</h3>
     <ul style="list-style: none; padding: 0;">
-        <li style="margin: 10px;"><a href="registration.jsp" style="color: #2980b9; text-decoration: none; font-size: 18px;">Register for Exam</a></li>
-        <li style="margin: 10px;"><a href="login.jsp" style="color: #27ae60; text-decoration: none; font-size: 18px;">Login (future)</a></li>
+        <li style="margin: 10px;">
+            <a href="registration.jsp" style="color: #2980b9; text-decoration: none; font-size: 18px;">
+                Register for Exam
+            </a>
+        </li>
+        <li style="margin: 10px;">
+            <a href="login.jsp" style="color: #27ae60; text-decoration: none; font-size: 18px;">
+                Login (future)
+            </a>
+        </li>
     </ul>
+
 </body>
 </html>
